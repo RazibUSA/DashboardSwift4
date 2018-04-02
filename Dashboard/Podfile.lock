@@ -5,6 +5,9 @@ PODS:
   - ChartsRealm (3.0.4):
     - Charts (= 3.0.4)
     - RealmSwift (~> 2.10)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
   - Realm (2.10.2):
     - Realm/Headers (= 2.10.2)
   - Realm/Headers (2.10.2)
@@ -13,13 +16,17 @@ PODS:
 
 DEPENDENCIES:
   - ChartsRealm
+  - Crashlytics
+  - Fabric
 
 SPEC CHECKSUMS:
   Charts: 0705898046257443f0afbbc3179f4b67507b6e48
   ChartsRealm: 3cf7c9ebf9c6312efbf418cf1da91d72d5416b26
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
   Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
   RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
 
-PODFILE CHECKSUM: a577f950111e7b74359d0374afaafdbaf791f7c2
+PODFILE CHECKSUM: 5905b0136c9546ca5b717c8666559b5aa0196733
 
 COCOAPODS: 1.3.1

@@ -16,6 +16,7 @@
 		4070A0C620407DC100B56465 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4070A0C720407DC100B56465 /* Realm.framework */; };
 		4070A0C920407E9800B56465 /* VisitorCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070A0C820407E9800B56465 /* VisitorCountModel.swift */; };
 		4070A0CB2044A1E200B56465 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070A0CA2044A1E200B56465 /* GridViewController.swift */; };
+		C9B1FE6DC78E56015CC19419 /* Pods_Dashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A6B6308EF577F62C5F7405 /* Pods_Dashboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			files = (
 				4070A0C620407DC100B56465 /* Realm.framework in Frameworks */,
 				4070A0C420407DB800B56465 /* Charts.framework in Frameworks */,
+				C9B1FE6DC78E56015CC19419 /* Pods_Dashboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +115,7 @@
 				4070A0AD204060B000B56465 /* Resources */,
 				9DF6C5E959F87BD30EF683B2 /* [CP] Embed Pods Frameworks */,
 				B8CB7B949E98BA8A404F919C /* [CP] Copy Pods Resources */,
+				40CC5668207077DB0032493B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -171,6 +174,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		40CC5668207077DB0032493B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3047103b534436ed63e9e3296038f9cfb4cbfc8d 1ae0e2133563109bd030ea89cdf2bb9be9d1a9fdfd380f2951c2efbc806b16b5";
+		};
 		9DF6C5E959F87BD30EF683B2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
